@@ -3,7 +3,8 @@
 
 Extension (in Swift) and Category (in Obj-C) on UIImage with function that returns image frame in UIImageView based on current content mode. Playgound to play around included.
 
-Supports all `UIView.ContentMode`s.
+Supports all `UIView.ContentMode`s. Will return `CGRect.zero` if image is not same as image view image.
+
 ## Usage/Examples
 
 Swift:
